@@ -2,7 +2,7 @@
 
 ## Install
 ```bash
-pip install xxx
+pip install https://github.com/revlinker/publisher-api/archive/refs/heads/master.zip
 ```
 
 ## Usage
@@ -13,10 +13,10 @@ from revlinker import pubapi
 pubapi.set_api_key('api_key')
 
 # Get Offers
-pubapi.get_offers()
+pubapi.get_offers({'limit':1000})
 
 # Get Campaigns
-pubapi.get_campaigns({'limit':100})
+pubapi.get_campaigns({'limit':1000})
 
 # Is Offer Active 
 pubapi.is_offer_active('{{uuid|offer_id}}')
