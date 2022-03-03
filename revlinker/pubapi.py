@@ -46,7 +46,7 @@ class RevlinkerPUBAPI:
 
         return len(req['results']) == 0
 
-    def get_offers(self, params):
+    def get_offers(self, params=None):
         """
         Available filters
         limit: Number of results to return per page.
