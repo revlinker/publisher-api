@@ -5,7 +5,7 @@ setup(
     version='1.0',
     author='Pedro Silva',
     url='https://pub.revlinker.com',
-    packages=['revlinker'],
+    packages=['pubapi'],
     package_dir={'': 'revlinker'},
     license='',
     author_email='pedro@makeitdigital.io',
